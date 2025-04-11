@@ -86,24 +86,35 @@
             }
         }
 
-        public function featchAllCategory(){
-            $selectQuery = sprintf("SELECT * FROM %s WHERE %s='%s'", TABLE_CATEGORY, CATEGORY_Fields::isDelete, DELETE_STATUS::NOT_DELETE);
+        public function featchAllCategory() {
+            $selectQuery = "
+                SELECT 
+                    c.*, 
+                    (SELECT COUNT(*) 
+                     FROM " . TABLE_QUESTION . " q 
+                     WHERE q." . QUESTION_Fields::categoryId . " = c.id 
+                     AND q." . QUESTION_Fields::isDelete . " = '" . DELETE_STATUS::NOT_DELETE . "'
+                    ) AS question_count 
+                FROM " . TABLE_CATEGORY . " c 
+                WHERE c." . CATEGORY_Fields::isDelete . " = '" . DELETE_STATUS::NOT_DELETE . "'";
+        
             if ($selectStmt = $this->connection->prepare($selectQuery)) {
                 if ($selectStmt->execute()) {
                     $stmt_result = $selectStmt->get_result();
                     if ($stmt_result->num_rows > 0) {
-                        $categoryData=[];
-                        while($row_data = $stmt_result->fetch_assoc()) {  
-                            $city['id']=$row_data['id'];
-                            $city['category_name']=$row_data['category_name'];
-                            $city['category_name_fr']=$row_data['category_name_fr'];
-                            $city['parentid']=$row_data['parentid'];
-                            $city['score']=$row_data['score'];
-                            $city['created_date']=$row_data['created_date'];
-                            $city['modified_date']=$row_data['modified_date'];
-                            $city['is_testdata']=$row_data['is_testdata'];
-                            $city['is_delete']=$row_data['is_delete'];
-                            array_push($categoryData,$city);
+                        $categoryData = [];
+                        while ($row_data = $stmt_result->fetch_assoc()) {
+                            $city['id'] = $row_data['id'];
+                            $city['category_name'] = $row_data['category_name'];
+                            $city['category_name_fr'] = $row_data['category_name_fr'];
+                            $city['parentid'] = $row_data['parentid'];
+                            $city['score'] = $row_data['score'];
+                            $city['created_date'] = $row_data['created_date'];
+                            $city['modified_date'] = $row_data['modified_date'];
+                            $city['is_testdata'] = $row_data['is_testdata'];
+                            $city['is_delete'] = $row_data['is_delete'];
+                            $city['question_count'] = $row_data['question_count']; // 👈 New field
+                            array_push($categoryData, $city);
                         }
                         $data[STATUS] = SUCCESS;
                         $data[MESSAGE] = 'Category return successfully!';
@@ -243,8 +254,7 @@
             }
             $fields = ''.TABLE_QUESTION.'.'.QUESTION_Fields::id.' as qid,'.QUESTION_Fields::question.','.QUESTION_Fields::questionFr.','.QUESTION_Fields::categoryId.','.TABLE_QUESTION.'.'.QUESTION_Fields::created.','.TABLE_QUESTION.'.'.QUESTION_Fields::modified.','.TABLE_QUESTION.'.'.QUESTION_Fields::isDelete.','.TABLE_QUESTION.'.'.QUESTION_Fields::isTestdata.',
             '.TABLE_ANSWER.'.'.ANSWER_Fields::id.' AS aid,'.ANSWER_Fields::questionId.','.ANSWER_Fields::answer.', '.ANSWER_Fields::answerFr.' ,'.TABLE_ANSWER.'.'.ANSWER_Fields::score.',
-            '.TABLE_CATEGORY.'.'.CATEGORY_Fields::id.' AS cid, '.CATEGORY_Fields::categoryName.'
-            ';
+            '.TABLE_CATEGORY.'.'.CATEGORY_Fields::id.' AS cid, '.CATEGORY_Fields::categoryName.', '.TABLE_CATEGORY.'.'.CATEGORY_Fields::score.' AS category_score';
             if($request = $this->connection->prepare('SELECT '.$fields.' FROM '.TABLE_QUESTION.' 
             INNER JOIN '.TABLE_ANSWER.' ON '.TABLE_QUESTION.'.'.QUESTION_Fields::id.' = '.TABLE_ANSWER.'.'.ANSWER_Fields::questionId.'
             INNER JOIN '.TABLE_CATEGORY.' ON '.TABLE_QUESTION.'.'.QUESTION_Fields::categoryId.' = '.TABLE_CATEGORY.'.'.CATEGORY_Fields::id.'
@@ -273,6 +283,7 @@
                             $question['modified_date']=$row_data['modified_date'];
                             $question['is_testdata']=$row_data['is_testdata'];
                             $question['is_delete']=$row_data['is_delete'];
+                            $question['category_score']=$row_data['category_score'];
                             array_push($questionData,$question);
                         }
                         $oldqid = $row_data['qid'];

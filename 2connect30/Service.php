@@ -150,6 +150,7 @@ switch ($_REQUEST['Service']) {
 
     /********************  chat Section ********************************/
     case "getConversationList":
+    case "createGetChat":
     case "getMessageList":
     case "chatmsgFileupload":
     case "deleteConversation":
