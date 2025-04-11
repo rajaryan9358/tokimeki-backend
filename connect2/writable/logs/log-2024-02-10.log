@@ -1,0 +1,10 @@
+CRITICAL - 2024-02-10 14:18:22 --> unlink(/var/www/html/connect2/writable/debugbar/debugbar_1707575676.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www...', '/var/www/html/c...', 74, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(74): unlink('/var/www/html/c...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1707596301, 20)
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /var/www/html/connect2/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,581 @@
+CRITICAL - 2022-03-10 00:51:44 --> Undefined property: App\Controllers\Admin\userController::$db
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-10 00:51:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '%%' limit 0,20' at line 1
+CRITICAL - 2022-03-10 00:51:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '%%' limit 0,20' at line 1
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(72): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-10 00:52:21 --> Table 'twoconnect30app.users' doesn't exist
+CRITICAL - 2022-03-10 00:52:21 --> Table 'twoconnect30app.users' doesn't exist
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(72): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-10 00:52:36 --> Undefined variable: userQuery
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-10 00:53:35 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-10 00:55:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-10 00:55:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-10 00:57:19 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-10 00:57:47 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-10 00:59:26 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-10 01:00:07 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-10 01:01:07 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-03-10 01:06:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc limit 0,10' at line 1
+CRITICAL - 2022-03-10 01:06:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc limit 0,10' at line 1
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(71): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-10 01:06:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc limit 0,10' at line 1
+CRITICAL - 2022-03-10 01:06:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc limit 0,10' at line 1
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(71): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-10 01:08:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc   limit 0,10' at line 1
+CRITICAL - 2022-03-10 01:08:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc   limit 0,10' at line 1
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(76): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-10 01:08:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'desc   limit 0,10' at line 1
+CRITICAL - 2022-03-10 01:08:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'desc   limit 0,10' at line 1
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(76): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-10 01:09:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc   limit 0,10' at line 1
+CRITICAL - 2022-03-10 01:09:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc   limit 0,10' at line 1
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(76): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-10 01:11:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc   limit 0,10' at line 1
+CRITICAL - 2022-03-10 01:11:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc   limit 0,10' at line 1
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(77): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-10 01:11:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc   limit 0,10' at line 1
+CRITICAL - 2022-03-10 01:11:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc   limit 0,10' at line 1
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(77): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-10 01:30:47 --> Undefined variable: id
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 117, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->fetchUserDetails()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-10 02:44:24 --> Trying to get property 'allcount' of non-object
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->fetchCategoryList()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-10 02:44:46 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$allcount
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->fetchCategoryList()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-10 02:45:02 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$allcount
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->fetchCategoryList()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-10 02:46:26 --> Trying to get property 'allcount' of non-object
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->fetchCategoryList()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-10 02:46:42 --> Undefined index: allcount
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->fetchCategoryList()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-10 02:47:23 --> Undefined index: allcount
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->fetchCategoryList()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-10 02:48:13 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->fetchCategoryList()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-10 02:48:36 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->fetchCategoryList()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-10 03:10:02 --> Undefined variable: res
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\QuestionAnswerController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\QuestionAnswerController->index()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\QuestionAnswerController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-10 03:42:40 --> Column 'score' cannot be null
+CRITICAL - 2022-03-10 03:42:40 --> Column 'score' cannot be null
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(125): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->add_category()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-10 03:42:41 --> Column 'score' cannot be null
+CRITICAL - 2022-03-10 03:42:41 --> Column 'score' cannot be null
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(125): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->add_category()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-10 03:42:42 --> Column 'score' cannot be null
+CRITICAL - 2022-03-10 03:42:42 --> Column 'score' cannot be null
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(125): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->add_category()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-10 03:42:43 --> Column 'score' cannot be null
+CRITICAL - 2022-03-10 03:42:43 --> Column 'score' cannot be null
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(125): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->add_category()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-10 03:42:43 --> Column 'score' cannot be null
+CRITICAL - 2022-03-10 03:42:43 --> Column 'score' cannot be null
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(125): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->add_category()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-10 03:59:56 --> Column 'score' cannot be null
+CRITICAL - 2022-03-10 03:59:56 --> Column 'score' cannot be null
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(125): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->add_category()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-10 03:59:57 --> Column 'score' cannot be null
+CRITICAL - 2022-03-10 03:59:57 --> Column 'score' cannot be null
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(125): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->add_category()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-10 03:59:57 --> Column 'score' cannot be null
+CRITICAL - 2022-03-10 03:59:57 --> Column 'score' cannot be null
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(125): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->add_category()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-10 04:56:34 --> Cannot add or update a child row: a foreign key constraint fails (`twoconnect30app`.`answer`, CONSTRAINT `answer_ibfk_1` FOREIGN KEY (`question_id`) REFERENCES `question` (`id`) ON DELETE CASCADE)
+CRITICAL - 2022-03-10 04:56:34 --> Cannot add or update a child row: a foreign key constraint fails (`twoconnect30app`.`answer`, CONSTRAINT `answer_ibfk_1` FOREIGN KEY (`question_id`) REFERENCES `question` (`id`) ON DELETE CASCADE)
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `an...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\connect2\app\Controllers\Admin\QuestionAnswerController.php(49): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\QuestionAnswerController->add_question_answer()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\QuestionAnswerController))
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-10 05:01:40 --> Cannot add or update a child row: a foreign key constraint fails (`twoconnect30app`.`answer`, CONSTRAINT `answer_ibfk_1` FOREIGN KEY (`question_id`) REFERENCES `question` (`id`) ON DELETE CASCADE)
+CRITICAL - 2022-03-10 05:01:40 --> Cannot add or update a child row: a foreign key constraint fails (`twoconnect30app`.`answer`, CONSTRAINT `answer_ibfk_1` FOREIGN KEY (`question_id`) REFERENCES `question` (`id`) ON DELETE CASCADE)
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `an...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\connect2\app\Controllers\Admin\QuestionAnswerController.php(49): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\QuestionAnswerController->add_question_answer()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\QuestionAnswerController))
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-10 05:03:47 --> Cannot add or update a child row: a foreign key constraint fails (`twoconnect30app`.`answer`, CONSTRAINT `answer_ibfk_1` FOREIGN KEY (`question_id`) REFERENCES `question` (`id`) ON DELETE CASCADE)
+CRITICAL - 2022-03-10 05:03:47 --> Cannot add or update a child row: a foreign key constraint fails (`twoconnect30app`.`answer`, CONSTRAINT `answer_ibfk_1` FOREIGN KEY (`question_id`) REFERENCES `question` (`id`) ON DELETE CASCADE)
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `an...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\connect2\app\Controllers\Admin\QuestionAnswerController.php(51): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\QuestionAnswerController->add_question_answer()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\QuestionAnswerController))
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-10 05:05:25 --> Cannot add or update a child row: a foreign key constraint fails (`twoconnect30app`.`answer`, CONSTRAINT `answer_ibfk_1` FOREIGN KEY (`question_id`) REFERENCES `question` (`id`) ON DELETE CASCADE)
+CRITICAL - 2022-03-10 05:05:25 --> Cannot add or update a child row: a foreign key constraint fails (`twoconnect30app`.`answer`, CONSTRAINT `answer_ibfk_1` FOREIGN KEY (`question_id`) REFERENCES `question` (`id`) ON DELETE CASCADE)
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `an...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\connect2\app\Controllers\Admin\QuestionAnswerController.php(53): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\QuestionAnswerController->add_question_answer()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\QuestionAnswerController))
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-03-10 05:35:37 --> Undefined property: App\Controllers\Admin\QuestionAnswerController::$product
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\QuestionAnswerController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\QuestionAnswerController->category_list()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\QuestionAnswerController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-10 05:36:28 --> Undefined property: App\Controllers\Admin\QuestionAnswerController::$category
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\QuestionAnswerController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\QuestionAnswerController->category_list()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\QuestionAnswerController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-10 05:37:20 --> Undefined property: App\Controllers\Admin\QuestionAnswerController::$category
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\QuestionAnswerController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\QuestionAnswerController->category_list()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\QuestionAnswerController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-10 05:39:24 --> Undefined property: App\Controllers\Admin\QuestionAnswerController::$category
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\QuestionAnswerController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\QuestionAnswerController->category_list()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\QuestionAnswerController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-10 05:41:40 --> Undefined property: App\Controllers\Admin\QuestionAnswerController::$category
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\QuestionAnswerController.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\QuestionAnswerController->category_list()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\QuestionAnswerController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-10 05:53:19 --> Unknown table 'twoconnect30app.category'
+CRITICAL - 2022-03-10 05:53:19 --> Unknown table 'twoconnect30app.category'
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\connect2\app\Controllers\Admin\QuestionAnswerController.php(72): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\QuestionAnswerController->category_list()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\QuestionAnswerController))
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-03-10 05:53:35 --> Unknown column 'category.is_delete' in 'where clause'
+CRITICAL - 2022-03-10 05:53:35 --> Unknown column 'category.is_delete' in 'where clause'
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `c`.*\nFR...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `c`.*\nFR...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `c`.*\nFR...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `c`.*\nFR...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\connect2\app\Controllers\Admin\QuestionAnswerController.php(72): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\QuestionAnswerController->category_list()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\QuestionAnswerController))
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-03-10 06:32:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\QuestionAnswerController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\QuestionAnswerController->add_question_answer()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\QuestionAnswerController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-10 21:50:37 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-10 21:50:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(46): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-10 21:50:42 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-10 21:50:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(46): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

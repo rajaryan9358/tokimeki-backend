@@ -1,0 +1,174 @@
+ERROR - 2023-04-07 00:06:11 --> Unknown column 'matches' in 'order clause'
+CRITICAL - 2023-04-07 00:06:11 --> Unknown column 'matches' in 'order clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select user.*,u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select user.*,u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select user.*,u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select user.*,u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(80): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-07 00:06:16 --> Unknown column 'matches' in 'order clause'
+CRITICAL - 2023-04-07 00:06:16 --> Unknown column 'matches' in 'order clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select user.*,u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select user.*,u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select user.*,u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select user.*,u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(80): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-07 00:06:54 --> Unknown column 'matches' in 'order clause'
+CRITICAL - 2023-04-07 00:06:54 --> Unknown column 'matches' in 'order clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select user.*,u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select user.*,u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select user.*,u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select user.*,u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(80): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-07 00:06:56 --> Unknown column 'matches' in 'order clause'
+CRITICAL - 2023-04-07 00:06:56 --> Unknown column 'matches' in 'order clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select user.*,u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select user.*,u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select user.*,u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select user.*,u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(80): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-07 05:36:52 --> Unknown column 'matches' in 'order clause'
+CRITICAL - 2023-04-07 05:36:52 --> Call to a member function getResult() on bool
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-04-07 05:36:58 --> Unknown column 'matches' in 'order clause'
+CRITICAL - 2023-04-07 05:36:58 --> Call to a member function getResult() on bool
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-04-07 05:37:25 --> Unknown column 'matches' in 'order clause'
+CRITICAL - 2023-04-07 05:37:25 --> Unknown column 'matches' in 'order clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select user.*,u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select user.*,u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select user.*,u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select user.*,u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(80): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-07 05:41:32 --> Undefined index: total_connection
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 159, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-07 05:41:52 --> Undefined index: total_connection
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 159, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-07 05:42:05 --> Undefined index: total_connection
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 159, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-07 05:42:40 --> Unknown column 'matches' in 'order clause'
+CRITICAL - 2023-04-07 05:42:40 --> Unknown column 'matches' in 'order clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select user.*,u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select user.*,u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select user.*,u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select user.*,u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(80): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-07 05:43:24 --> Unknown column 'matches' in 'order clause'
+CRITICAL - 2023-04-07 05:43:24 --> Unknown column 'matches' in 'order clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select user.*,u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select user.*,u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select user.*,u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select user.*,u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(78): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-07 05:43:29 --> Unknown column 'matches' in 'order clause'
+CRITICAL - 2023-04-07 05:43:29 --> Unknown column 'matches' in 'order clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select user.*,u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select user.*,u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select user.*,u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select user.*,u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(78): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-07 05:43:32 --> Unknown column 'matches' in 'order clause'
+CRITICAL - 2023-04-07 05:43:32 --> Unknown column 'matches' in 'order clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select user.*,u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select user.*,u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select user.*,u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select user.*,u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(78): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-07 05:50:50 --> syntax error, unexpected '" class="' (T_CONSTANT_ENCAPSED_STRING)
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/c...')
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-07 06:22:47 --> Unknown column 'matches' in 'order clause'
+CRITICAL - 2023-04-07 06:22:47 --> Unknown column 'matches' in 'order clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select user.*,u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select user.*,u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select user.*,u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select user.*,u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(80): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-07 07:09:38 --> Invalid file: landing_page/terms_condition.php
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing_page/te...')
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('landing_page/te...', Array, true)
+#2 /var/www/html/connect2/app/Controllers/Home.php(19): view('landing_page/te...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->TermsAndConditions()
+#4 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}

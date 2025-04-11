@@ -1,0 +1,260 @@
+CRITICAL - 2022-04-20 05:29:07 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php on line 728 and at least 2 expected
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->join('user_points.use...')
+#1 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(57): CodeIgniter\Model->__call('join', Array)
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#4 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 05:30:13 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php on line 728 and at least 2 expected
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->join('user_points.use...')
+#1 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(57): CodeIgniter\Model->__call('join', Array)
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#4 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-20 05:30:18 --> Column 'is_delete' in where clause is ambiguous
+CRITICAL - 2022-04-20 05:30:18 --> Column 'is_delete' in where clause is ambiguous
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select user.*,u...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select user.*,u...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select user.*,u...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select user.*,u...')
+#4 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(79): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-20 05:30:58 --> Column 'is_delete' in where clause is ambiguous
+CRITICAL - 2022-04-20 05:30:58 --> Column 'is_delete' in where clause is ambiguous
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select user.*,u...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select user.*,u...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select user.*,u...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select user.*,u...')
+#4 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(79): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 05:58:59 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 05:59:41 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$min_point
+#0 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/d...', 90, Array)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 06:00:19 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$min_point
+#0 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/d...', 90, Array)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 06:02:41 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$min_point
+#0 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/d...', 90, Array)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 06:03:44 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$min_point
+#0 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/d...', 90, Array)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 06:06:01 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$min_point
+#0 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/d...', 90, Array)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 06:07:00 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$min_point
+#0 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/d...', 90, Array)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 06:11:31 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$min_point
+#0 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/d...', 92, Array)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 06:12:02 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:12:08 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:13:02 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:15:37 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:18:47 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:18:54 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:19:17 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:19:38 --> Trying to get property 'min_point' of non-object
+#0 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/d...', 98, Array)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 06:19:46 --> Trying to get property 'min_point' of non-object
+#0 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/d...', 98, Array)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 06:24:20 --> Illegal string offset 'min_point'
+#0 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/var/www/html/d...', 98, Array)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 06:25:20 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:26:05 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:28:02 --> Object of class stdClass could not be converted to string
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:28:55 --> Object of class stdClass could not be converted to string
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-20 06:31:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) as total_match FROM user LEFT JOIN reject_match
+
+            ON reject_m...' at line 1
+CRITICAL - 2022-04-20 06:31:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) as total_match FROM user LEFT JOIN reject_match
+
+            ON reject_m...' at line 1
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT count(us...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(us...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(us...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT count(us...')
+#4 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(103): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-20 06:31:51 --> Unknown column 'user_points.point' in 'where clause'
+CRITICAL - 2022-04-20 06:31:51 --> Unknown column 'user_points.point' in 'where clause'
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#4 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(103): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-20 06:33:17 --> Unknown column 'user_points.point' in 'where clause'
+CRITICAL - 2022-04-20 06:33:17 --> Unknown column 'user_points.point' in 'where clause'
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#4 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(103): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-20 06:49:05 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-04-20 06:49:05 --> Column 'id' in where clause is ambiguous
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *, `user...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `user...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `user...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *, `user...', Array, false)
+#4 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(147): CodeIgniter\BaseModel->first()
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->fetchUserDetails()
+#8 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#9 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-20 07:02:12 --> Table 'twoconnect30app.point' doesn't exist
+CRITICAL - 2022-04-20 07:02:12 --> Table 'twoconnect30app.point' doesn't exist
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select min_poin...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select min_poin...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select min_poin...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select min_poin...')
+#4 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(153): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->fetchUserDetails()
+#6 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-20 07:02:21 --> Table 'twoconnect30app.point' doesn't exist
+CRITICAL - 2022-04-20 07:02:21 --> Table 'twoconnect30app.point' doesn't exist
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select min_poin...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select min_poin...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select min_poin...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select min_poin...')
+#4 /var/www/html/dev/connect2/app/Controllers/Admin/userController.php(153): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->fetchUserDetails()
+#6 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,161 @@
+CRITICAL - 2024-07-29 08:07:01 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:01 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:01 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:02 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:02 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:03 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:03 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:04 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:04 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:05 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:07 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:09 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:11 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:13 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:15 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:17 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:20 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:22 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:24 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:26 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:27 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:27 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-07-29 08:07:28 --> Undefined index: _ci_previous_url
+#0 /var/www/html/connect2/app/Controllers/Admin/adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 73, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->fetch_language()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

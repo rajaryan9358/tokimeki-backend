@@ -1,0 +1,13 @@
+CRITICAL - 2023-03-14 08:17:55 --> Class 'App\Controllers\PHPMailer' not found
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->send_email()
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-14 08:27:46 --> Undefined variable: to
+#0 /var/www/html/dev/connect2/app/Controllers/Home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/d...', 49, Array)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->send_email()
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

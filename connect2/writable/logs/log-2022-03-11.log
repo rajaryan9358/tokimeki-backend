@@ -1,0 +1,61 @@
+ERROR - 2022-03-11 03:07:13 --> Cannot add or update a child row: a foreign key constraint fails (`twoconnect30app`.`answer`, CONSTRAINT `answer_ibfk_1` FOREIGN KEY (`question_id`) REFERENCES `question` (`id`) ON DELETE CASCADE)
+CRITICAL - 2022-03-11 03:07:13 --> Cannot add or update a child row: a foreign key constraint fails (`twoconnect30app`.`answer`, CONSTRAINT `answer_ibfk_1` FOREIGN KEY (`question_id`) REFERENCES `question` (`id`) ON DELETE CASCADE)
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `an...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\connect2\app\Controllers\Admin\QuestionAnswerController.php(90): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\QuestionAnswerController->add_question_answer()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\QuestionAnswerController))
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-03-11 03:58:36 --> Undefined variable: route
+#0 C:\xampp\htdocs\connect2\app\Config\Routes.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(713): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-11 04:11:16 --> Undefined property: App\Controllers\Admin\categoryController::$question
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 158, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->delete_category()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-11 04:13:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `category`
+ LIMIT 1' at line 2
+CRITICAL - 2022-03-11 04:13:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `category`
+ LIMIT 1' at line 2
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(64): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->fetchCategoryList()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-03-11 06:29:57 --> Invalid file: header.php
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/category', Array, true)
+#3 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(23): view('Admin/category', Array)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->index()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

@@ -1,0 +1,122 @@
+CRITICAL - 2022-03-07 00:00:14 --> Array to string conversion
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\DashboardController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\DashboardController->my_profile()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-07 00:02:58 --> Invalid file: my_profile.php
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('my_profile.php')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('my_profile', Array, true)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\DashboardController.php(30): view('my_profile', Array)
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\DashboardController->my_profile()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-07 00:02:59 --> Invalid file: my_profile.php
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('my_profile.php')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('my_profile', Array, true)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\DashboardController.php(30): view('my_profile', Array)
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\DashboardController->my_profile()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-07 00:03:13 --> include_once(Admin/header.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\connect2\app\Views\Admin\my_profile.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(Ad...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\connect2\app\Views\Admin\my_profile.php(1): include_once()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/my_profil...', Array, true)
+#5 C:\xampp\htdocs\connect2\app\Controllers\Admin\DashboardController.php(30): view('Admin/my_profil...', Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\DashboardController->my_profile()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-03-07 00:12:24 --> Undefined variable: data
+#0 C:\xampp\htdocs\connect2\app\Views\Admin\my_profile.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/my_profil...', Array, true)
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\DashboardController.php(30): view('Admin/my_profil...', Array)
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\DashboardController->my_profile()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-07 00:35:30 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\connect2\app\Views\Admin\my_profile.php(79): date('d/m/YY', '2016-03-02')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/my_profil...', Array, true)
+#5 C:\xampp\htdocs\connect2\app\Controllers\Admin\DashboardController.php(30): view('Admin/my_profil...', Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\DashboardController->my_profile()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-03-07 00:58:02 --> Call to undefined method App\Models\userModel::fetchAll
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(18): CodeIgniter\Model->__call('fetchAll', Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->index()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-07 00:58:21 --> Call to undefined method App\Models\userModel::getAll
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(18): CodeIgniter\Model->__call('getAll', Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->index()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-07 01:24:36 --> Undefined index: fname
+#0 C:\xampp\htdocs\connect2\app\Views\Admin\users.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/users', Array, true)
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(20): view('Admin/users', Array)
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->index()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-07 01:25:04 --> Undefined index: nickname
+#0 C:\xampp\htdocs\connect2\app\Views\Admin\users.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/users', Array, true)
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(20): view('Admin/users', Array)
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->index()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-07 23:38:38 --> Call to undefined method App\Models\userModel::fetch
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(41): CodeIgniter\Model->__call('fetch', Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->fetchUserDetails()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-07 23:40:17 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to int
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->fetchUserDetails()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

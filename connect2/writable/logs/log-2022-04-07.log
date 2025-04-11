@@ -1,0 +1,9 @@
+CRITICAL - 2022-04-07 20:24:28 --> Undefined variable: totalTime
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/d...', 40, Array)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Debug/Toolbar.php(501): include('/var/www/html/d...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /var/www/html/dev/connect2/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

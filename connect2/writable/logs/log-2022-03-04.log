@@ -1,0 +1,637 @@
+ERROR - 2022-03-04 01:09:23 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-04 01:09:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(25): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-04 01:10:17 --> Table 'connect2_db.admin' doesn't exist
+CRITICAL - 2022-03-04 01:10:17 --> Table 'connect2_db.admin' doesn't exist
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(25): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-03-04 01:10:55 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-03-04 01:10:55 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(25): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-03-04 01:21:05 --> Invalid file: login.php
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(44): view('login', Array)
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 01:21:30 --> Undefined variable: errorCode
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 01:22:11 --> Undefined variable: errorCode
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 01:25:39 --> Undefined variable: errorCode
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 01:26:42 --> Undefined variable: errorCode
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 01:27:06 --> Undefined variable: errorCode
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 01:27:54 --> Undefined variable: errorCode
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 01:28:11 --> Undefined variable: errorCode
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 01:29:15 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 01:30:09 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 01:30:10 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 02:48:31 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\connect2\app\Views\Admin\login.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/login', Array, true)
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(16): view('Admin/login')
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->index()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-04 02:50:52 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\connect2\app\Views\Admin\login.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/login', Array, true)
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(16): view('Admin/login')
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->index()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-04 02:51:08 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/login', Array, true)
+#3 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(16): view('Admin/login')
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->index()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-04 02:51:29 --> ini_set(): A session is active. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): A se...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\connect2\app\Views\Admin\login.php(64): session()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/login', Array, true)
+#12 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(16): view('Admin/login')
+#13 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->index()
+#14 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#15 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2022-03-04 02:52:31 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/login', Array, true)
+#3 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(16): view('Admin/login')
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->index()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-04 02:52:33 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/login', Array, true)
+#3 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(16): view('Admin/login')
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->index()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-04 02:52:54 --> Undefined variable: session
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 02:53:27 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/login', Array, true)
+#3 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(16): view('Admin/login')
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->index()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-04 02:59:56 --> Invalid file: login.php
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(40): view('login', Array)
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 03:02:36 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(40): redirect('login', Array)
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 03:02:49 --> Invalid file: login.php
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(40): view('login', Array)
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 03:02:52 --> Invalid file: login.php
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(40): view('login', Array)
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 03:04:47 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(43): redirect('Admin/login')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 03:05:02 --> Call to undefined method CodeIgniter\HTTP\RedirectResponse::withErrors()
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 03:17:58 --> Invalid file: /.php
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('/', Array, true)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(41): view('/', Array)
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 03:18:17 --> Invalid file: /.php
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('/', Array, true)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(41): view('/', Array)
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 03:26:07 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 03:26:40 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 03:26:43 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 03:31:30 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 03:31:31 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 03:50:48 --> include_once(Admin/header.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\connect2\app\Views\Admin\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(Ad...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\connect2\app\Views\Admin\dashboard.php(1): include_once()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/dashboard', Array, true)
+#5 C:\xampp\htdocs\connect2\app\Controllers\Admin\DashboardController.php(18): view('Admin/dashboard')
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-03-04 04:31:46 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-04 04:47:52 --> Undefined property: App\Controllers\Admin\adminController::$load
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 04:49:13 --> Undefined property: App\Controllers\Admin\adminController::$load
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 04:49:14 --> Undefined property: App\Controllers\Admin\adminController::$load
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 04:54:19 --> Class 'App\Controllers\Admin\FormModel' not found
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 04:54:23 --> Class 'App\Controllers\Admin\FormModel' not found
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 04:54:40 --> Invalid file: login.php
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(30): view('login', Array)
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 05:02:46 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 05:13:29 --> Invalid file: /.php
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('/', Array, true)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(30): view('/', Array)
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 05:13:42 --> Invalid file: /login.php
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/login.php')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('/login', Array, true)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(30): view('/login', Array)
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 05:13:45 --> Invalid file: /login.php
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/login.php')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('/login', Array, true)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(30): view('/login', Array)
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 05:16:24 --> Invalid file: /login.php
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/login.php')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('/login', Array, true)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(30): view('/login', Array)
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 05:20:32 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/login', Array, true)
+#3 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(30): view('Admin/login', Array)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-04 05:20:54 --> email is not a valid Validation template.
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Validation\Validation.php(485): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('email')
+#1 C:\xampp\htdocs\connect2\app\Views\Admin\login.php(72): CodeIgniter\Validation\Validation->listErrors('email')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/login', Array, true)
+#5 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(30): view('Admin/login', Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-03-04 05:21:05 --> email_id is not a valid Validation template.
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Validation\Validation.php(485): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('email_id')
+#1 C:\xampp\htdocs\connect2\app\Views\Admin\login.php(72): CodeIgniter\Validation\Validation->listErrors('email_id')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/login', Array, true)
+#5 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(30): view('Admin/login', Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-03-04 05:37:34 --> Undefined variable: validation
+#0 C:\xampp\htdocs\connect2\app\Views\Admin\login.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/login', Array, true)
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(17): view('Admin/login')
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->index()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-04 05:38:26 --> Undefined variable: validation
+#0 C:\xampp\htdocs\connect2\app\Views\Admin\login.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/login', Array, true)
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(17): view('Admin/login')
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->index()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-04 05:38:28 --> Undefined variable: validation
+#0 C:\xampp\htdocs\connect2\app\Views\Admin\login.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/login', Array, true)
+#4 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(17): view('Admin/login')
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->index()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-04 06:02:39 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(32): redirect('Admin/login')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 06:16:08 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(32): redirect('Admin/login')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 06:16:12 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(32): redirect('Admin/login')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 06:16:23 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(32): redirect('Admin/login')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 06:16:27 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\connect2\app\Controllers\Admin\adminController.php(32): redirect('Admin/login')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 06:17:32 --> Call to a member function withInput() on string
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 06:23:46 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 06:24:00 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 06:24:01 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 06:27:35 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 06:31:45 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 06:32:00 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 06:32:59 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

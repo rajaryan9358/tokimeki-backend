@@ -1,0 +1,241 @@
+CRITICAL - 2023-04-04 04:51:40 --> Undefined variable: searchValue
+#0 /var/www/html/connect2/app/Controllers/Admin/DashboardController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 24, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 04:57:04 --> Undefined variable: userQuery
+#0 /var/www/html/connect2/app/Controllers/Admin/DashboardController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 23, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 04:57:19 --> Undefined variable: userQuery
+#0 /var/www/html/connect2/app/Controllers/Admin/DashboardController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 23, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 05:00:26 --> Array to string conversion
+#0 /var/www/html/connect2/app/Views/Admin/dashboard.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/c...', 35, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/c...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('Admin/dashboard', Array, true)
+#4 /var/www/html/connect2/app/Controllers/Admin/DashboardController.php(29): view('Admin/dashboard', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-04 05:04:49 --> Array to string conversion
+#0 /var/www/html/connect2/app/Views/Admin/dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/c...', 45, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/c...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('Admin/dashboard', Array, true)
+#4 /var/www/html/connect2/app/Controllers/Admin/DashboardController.php(29): view('Admin/dashboard', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-04 05:10:10 --> Unknown column 'user.created_at' in 'where clause'
+CRITICAL - 2023-04-04 05:10:10 --> Unknown column 'user.created_at' in 'where clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/DashboardController.php(29): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-04 05:10:18 --> Unknown column 'user.created_at' in 'where clause'
+CRITICAL - 2023-04-04 05:10:18 --> Unknown column 'user.created_at' in 'where clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/DashboardController.php(29): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-04 05:10:43 --> Unknown column 'user.created_at' in 'where clause'
+CRITICAL - 2023-04-04 05:10:43 --> Unknown column 'user.created_at' in 'where clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select * FROM u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * FROM u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * FROM u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select * FROM u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/DashboardController.php(29): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-04 05:11:10 --> Unknown column 'user.created_at' in 'where clause'
+CRITICAL - 2023-04-04 05:11:10 --> Unknown column 'user.created_at' in 'where clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select * FROM u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * FROM u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * FROM u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select * FROM u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/DashboardController.php(29): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-04 05:11:30 --> Unknown column 'user.created_at' in 'where clause'
+CRITICAL - 2023-04-04 05:11:30 --> Unknown column 'user.created_at' in 'where clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select * FROM u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * FROM u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * FROM u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select * FROM u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/DashboardController.php(29): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-04 06:35:33 --> syntax error, unexpected 'accept' (T_STRING), expecting ')'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/c...')
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-04 06:43:51 --> Undefined index: ct
+#0 /var/www/html/connect2/app/Controllers/Admin/DashboardController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 36, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 06:44:09 --> Undefined index: ct
+#0 /var/www/html/connect2/app/Controllers/Admin/DashboardController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 36, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 06:45:48 --> Undefined index: ct
+#0 /var/www/html/connect2/app/Controllers/Admin/DashboardController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 36, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 06:45:53 --> Cannot use object of type stdClass as array
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-04 06:46:22 --> Cannot use object of type stdClass as array
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-04 06:46:30 --> Cannot use object of type stdClass as array
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-04 06:50:13 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/var/www/html/c...', 42, Array)
+#1 /var/www/html/connect2/app/Controllers/Admin/DashboardController.php(42): count(39)
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\DashboardController->index()
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#4 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-04 08:00:33 --> syntax error, unexpected '.', expecting ']'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Language/Language.php(223): CodeIgniter\Language\Language->requireFile('Language/fr/Val...')
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Language/Language.php(164): CodeIgniter\Language\Language->load('Validation', 'fr')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Language/Language.php(99): CodeIgniter\Language\Language->parseLine('title', 'fr')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Common.php(721): CodeIgniter\Language\Language->getLine('Validation.titl...', Array)
+#4 /var/www/html/connect2/app/Views/Admin/header.php(7): lang('Validation.titl...')
+#5 /var/www/html/connect2/app/Views/Admin/users.php(1): include_once('/var/www/html/c...')
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/c...')
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /var/www/html/connect2/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('Admin/users', Array, true)
+#9 /var/www/html/connect2/app/Controllers/Admin/userController.php(21): view('Admin/users', Array)
+#10 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->index()
+#11 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#12 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-04-04 08:19:34 --> Array to string conversion
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/c...', 109, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 08:25:17 --> Undefined index: ct
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 132, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 08:25:34 --> Undefined index: ct
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 132, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 08:26:28 --> Undefined index: ct
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 132, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 08:28:23 --> Trying to get property 'ct' of non-object
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/c...', 114, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 08:30:13 --> Cannot use object of type stdClass as array
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-04-04 08:39:29 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2023-04-04 08:39:29 --> Unknown column 'status' in 'where clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select COUNT(id...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select COUNT(id...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select COUNT(id...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select COUNT(id...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(118): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-04 08:39:36 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2023-04-04 08:39:36 --> Unknown column 'status' in 'where clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select COUNT(id...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select COUNT(id...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select COUNT(id...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select COUNT(id...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(118): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,161 @@
+CRITICAL - 2023-04-05 06:45:53 --> Cannot use object of type stdClass as array
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->fetchUserDetails()
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-05 06:46:19 --> Undefined property: stdClass::$cnt
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(236): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/c...', 236, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->fetchUserDetails()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 07:50:50 --> Class 'App\Controllers\Admin\AppTokenModel' not found
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Admin\userController->__construct()
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-05 08:04:34 --> Trying to get property 'first_name' of non-object
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/c...', 165, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 08:04:59 --> Trying to get property 'first_name' of non-object
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/c...', 165, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 08:06:17 --> Undefined offset: 0
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/var/www/html/c...', 165, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-05 08:19:43 --> Unknown column 'total_receiver_messages' in 'order clause'
+CRITICAL - 2023-04-05 08:19:43 --> Unknown column 'total_receiver_messages' in 'order clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select user.*,u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select user.*,u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select user.*,u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select user.*,u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(80): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-05 08:19:47 --> Unknown column 'matches' in 'order clause'
+CRITICAL - 2023-04-05 08:19:47 --> Unknown column 'matches' in 'order clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select user.*,u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select user.*,u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select user.*,u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select user.*,u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(80): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-05 08:20:07 --> Unknown column 'last_connection' in 'order clause'
+CRITICAL - 2023-04-05 08:20:07 --> Unknown column 'last_connection' in 'order clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select user.*,u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select user.*,u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select user.*,u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select user.*,u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(80): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-05 08:35:06 --> Unknown column 'last_connection' in 'order clause'
+CRITICAL - 2023-04-05 08:35:06 --> Unknown column 'last_connection' in 'order clause'
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('select user.*,u...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select user.*,u...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select user.*,u...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('select user.*,u...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(80): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-05 08:41:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_points.point BETWEEN 36 AND 46 AND user.is_delete='0' AND  user.id...' at line 13
+CRITICAL - 2023-04-05 08:41:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_points.point BETWEEN 36 AND 46 AND user.is_delete='0' AND  user.id...' at line 13
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(108): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-05 08:41:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_points.point BETWEEN 36 AND 46 AND user.is_delete='0' AND  user.id...' at line 13
+CRITICAL - 2023-04-05 08:41:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_points.point BETWEEN 36 AND 46 AND user.is_delete='0' AND  user.id...' at line 13
+#0 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#4 /var/www/html/connect2/app/Controllers/Admin/userController.php(108): CodeIgniter\Model->__call('query', Array)
+#5 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#6 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#7 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-05 08:43:22 --> Undefined property: stdClass::$ct
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/c...', 174, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 08:44:55 --> Trying to access array offset on value of type null
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/var/www/html/c...', 170, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 08:45:00 --> Trying to access array offset on value of type null
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/var/www/html/c...', 170, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 15:16:51 --> Trying to access array offset on value of type null
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/var/www/html/c...', 170, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 15:16:56 --> Trying to access array offset on value of type null
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/var/www/html/c...', 170, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 23:42:19 --> Trying to access array offset on value of type null
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/var/www/html/c...', 170, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 23:43:57 --> Trying to access array offset on value of type null
+#0 /var/www/html/connect2/app/Controllers/Admin/userController.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/var/www/html/c...', 170, Array)
+#1 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 /var/www/html/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

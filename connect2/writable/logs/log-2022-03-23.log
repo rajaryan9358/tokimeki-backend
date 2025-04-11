@@ -1,0 +1,126 @@
+ERROR - 2022-03-23 23:33:53 --> Table 'twoconnect30app.admin' doesn't exist
+CRITICAL - 2022-03-23 23:33:53 --> Table 'twoconnect30app.admin' doesn't exist
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/dev/connect2/app/Controllers/Admin/adminController.php(28): CodeIgniter\BaseModel->first()
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#8 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#9 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-23 23:34:16 --> Table 'twoconnect30app.admin' doesn't exist
+CRITICAL - 2022-03-23 23:34:16 --> Table 'twoconnect30app.admin' doesn't exist
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/dev/connect2/app/Controllers/Admin/adminController.php(28): CodeIgniter\BaseModel->first()
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#8 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#9 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-23 23:34:17 --> Table 'twoconnect30app.admin' doesn't exist
+CRITICAL - 2022-03-23 23:34:17 --> Table 'twoconnect30app.admin' doesn't exist
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/dev/connect2/app/Controllers/Admin/adminController.php(28): CodeIgniter\BaseModel->first()
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#8 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#9 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-23 23:34:23 --> Table 'twoconnect30app.admin' doesn't exist
+CRITICAL - 2022-03-23 23:34:23 --> Table 'twoconnect30app.admin' doesn't exist
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/dev/connect2/app/Controllers/Admin/adminController.php(28): CodeIgniter\BaseModel->first()
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#8 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#9 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-23 23:34:24 --> Table 'twoconnect30app.admin' doesn't exist
+CRITICAL - 2022-03-23 23:34:24 --> Table 'twoconnect30app.admin' doesn't exist
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/dev/connect2/app/Controllers/Admin/adminController.php(28): CodeIgniter\BaseModel->first()
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#8 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#9 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-23 23:34:25 --> Table 'twoconnect30app.admin' doesn't exist
+CRITICAL - 2022-03-23 23:34:25 --> Table 'twoconnect30app.admin' doesn't exist
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/dev/connect2/app/Controllers/Admin/adminController.php(28): CodeIgniter\BaseModel->first()
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#8 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#9 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-23 23:34:25 --> Table 'twoconnect30app.admin' doesn't exist
+CRITICAL - 2022-03-23 23:34:25 --> Table 'twoconnect30app.admin' doesn't exist
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/dev/connect2/app/Controllers/Admin/adminController.php(28): CodeIgniter\BaseModel->first()
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#8 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#9 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-23 23:34:25 --> Table 'twoconnect30app.admin' doesn't exist
+CRITICAL - 2022-03-23 23:34:25 --> Table 'twoconnect30app.admin' doesn't exist
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/dev/connect2/app/Controllers/Admin/adminController.php(28): CodeIgniter\BaseModel->first()
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#8 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#9 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-23 23:34:26 --> Table 'twoconnect30app.admin' doesn't exist
+CRITICAL - 2022-03-23 23:34:26 --> Table 'twoconnect30app.admin' doesn't exist
+#0 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/dev/connect2/app/Controllers/Admin/adminController.php(28): CodeIgniter\BaseModel->first()
+#7 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\adminController->LoginAuth()
+#8 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\adminController))
+#9 /var/www/html/dev/connect2/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/dev/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

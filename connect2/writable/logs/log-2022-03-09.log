@@ -1,0 +1,295 @@
+ERROR - 2022-03-09 00:10:31 --> Column 'category_name' cannot be null
+CRITICAL - 2022-03-09 00:10:31 --> Column 'category_name' cannot be null
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(52): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->add_category()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-09 00:10:33 --> Column 'category_name' cannot be null
+CRITICAL - 2022-03-09 00:10:33 --> Column 'category_name' cannot be null
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(52): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->add_category()
+#10 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-03-09 00:50:05 --> Call to undefined method App\Models\categoryModel::exists
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(43): CodeIgniter\Model->__call('exists', Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->add_category()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-09 03:51:13 --> There is no data to update.
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(79): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->add_category()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-09 03:54:31 --> There is no data to update.
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\connect2\app\Controllers\Admin\categoryController.php(79): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\categoryController->add_category()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\categoryController))
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-09 06:22:12 --> Undefined variable: con
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-09 06:33:19 --> Undefined index: allcount
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-09 06:33:35 --> Undefined index: allcount
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-09 21:47:22 --> Undefined index: allcount
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-09 21:47:42 --> Undefined index: allcount
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-09 22:01:19 --> Unknown column 'category_name' in 'where clause'
+CRITICAL - 2022-03-09 22:01:19 --> Unknown column 'category_name' in 'where clause'
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(70): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-03-09 22:02:03 --> Unknown column 'score' in 'where clause'
+CRITICAL - 2022-03-09 22:02:03 --> Unknown column 'score' in 'where clause'
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(72): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-03-09 22:08:35 --> Object of class App\Models\userModel could not be converted to string
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-09 22:22:27 --> Undefined variable: totalRecords
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-09 22:25:12 --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_as...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(93): mysqli_fetch_assoc(Object(App\Models\userModel))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-09 22:29:34 --> Illegal string offset 'first_name'
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-09 22:29:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-09 22:30:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-09 22:30:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-09 22:31:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-09 22:36:14 --> Unknown column 'name' in 'order clause'
+CRITICAL - 2022-03-09 22:36:14 --> Unknown column 'name' in 'order clause'
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(87): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-03-09 22:37:07 --> Unknown column 'name' in 'order clause'
+CRITICAL - 2022-03-09 22:37:07 --> Unknown column 'name' in 'order clause'
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(87): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#8 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#9 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-03-09 23:37:18 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-09 23:37:49 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-09 23:38:18 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-09 23:38:42 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-09 23:42:36 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-09 23:42:48 --> Call to undefined method App\Models\userModel::fetch
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(77): CodeIgniter\Model->__call('fetch', Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-09 23:47:25 --> Undefined property: App\Controllers\Admin\userController::$db
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-09 23:53:33 --> Undefined property: App\Controllers\Admin\userController::$db
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-09 23:57:48 --> Undefined property: App\Controllers\Admin\userController::$db
+#0 C:\xampp\htdocs\connect2\app\Controllers\Admin\userController.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\userController->getUserRecords()
+#2 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\userController))
+#3 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\connect2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\connect2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
